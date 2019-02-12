@@ -1,0 +1,23 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.beers{
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.beers div{
+	border-style: solid;
+	border-width: 4px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
